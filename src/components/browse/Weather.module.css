@@ -1,0 +1,48 @@
+/* WeatherCard.module.css */
+
+.weather-card {
+    width: 31vw;
+    min-height: 20vh;
+    background: #101744;
+    border-radius: 12px;
+    margin-top: 5px;
+  }
+  
+  .weather-card-header {
+    width:31vw;
+    height: 7vh;
+    background: #FF4ADE;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2rem;
+  }
+  
+  .weather-card-body {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .weather-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .weather-temperature {
+    margin-bottom: 12px;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .weather-details {
+    width: 31vw;
+    margin-bottom: 12px;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
